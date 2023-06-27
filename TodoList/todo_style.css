@@ -1,0 +1,47 @@
+main {display: flex;}
+main > * {border: 1px solid;}
+table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+}
+
+thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: hsl(20, 50%, 70%);
+  }
+
+  tbody {
+    overflow: scroll;
+    height: 200px;
+  }
+  
+  button {
+    min-width: 100px;  
+    min-height: 100px; 
+  }
+
+.dragging {
+  
+  
+  position: fixed; 
+  border-width: medium;
+  
+  border-color:black; 
+  border-style: solid; 
+  border-radius:8px; 
+  
+  
+}
+
+.dropzone {
+  border-top:20px; 
+  border-color:black; 
+  border-style:solid; 
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="todo_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TODO List</title>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = "todo_js.js"></script>
+    
+</head>
+<body id = "body">
+
+    <h1 id="title_text">
+        THIS IS THE OPTIMIZED TODO LIST
+    </h1>
+
+    <table id="task_table">
+        <thead>
+            <th>Date:</th>
+            <th>Task:</th>
+            <th>Completed?</th>
+            <th>Additional Info?</th>
+        </thead>
+        <tbody id="task_table_body">
+            
+            
+        </tbody>
+
+        <!-- ADD MECHANISM TO ADD TRs HERE -->
+
+        <!-- ADD MECHANISM FOR DATABASE HERE -->
+
+    </table>
+
+    <div id="temp_drag"></div>
+    <button id="add_button" onclick="addTask()" >
+        <i class="fa fa-plus"></i>
+    </button>
+    <button id = "remove_button" onclick="removeTask()">
+        <i class="fa fa-minus"></i>
+    </button>
+
+    <button id = "save_button" onclick= "save()" >
+        SAVE
+    </button>
+    
+</body>
+</html>

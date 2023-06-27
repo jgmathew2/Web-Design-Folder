@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pong.css">
+    <script src="pong.js"></script>
+    <title>Pong</title>
+</head>
+<body>
+
+    <div id="title"> <h1>PONG</h1> </div>
+
+    <div class="border" id="leftBorder">
+        <p></p>
+
+    </div>
+
+    <div class="border" id="rightBorder">
+        <p></p>
+    </div>
+
+    
+    <div id="starting" onclick="startGame()">
+
+        <h2>
+            PLAY
+        </h2>
+
+    </div>
+
+ 
+
+    <div id="player" hidden="true" >
+        <img id="player_image" src="paddle.jpg" width="200" height="30">
+    </div>
+
+    <div id="player2" hidden="true" >
+        <img id="player_image" src="paddle.jpg" width="200" height="30">
+    </div>
+
+    <div id="ball" hidden="true">
+        <img id="ball_image" src="ball.jpg" width="30" height="30">
+    </div>
+        
+    <p id="score" hidden = true> Score: 0, 0 </p>
+
+
+
+
+    
+    
+</body>
+</html>

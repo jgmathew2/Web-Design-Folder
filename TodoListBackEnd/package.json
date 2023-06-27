@@ -1,0 +1,15 @@
+{
+  "name": "todolistbackend",
+  "version": "1.0.0",
+  "description": "The Back End of My Todo List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johan Mathew",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "path": "^0.12.7"
+  }
+}
