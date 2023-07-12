@@ -69,8 +69,6 @@ app.post("/new", async (req, res) => {
             additional: additional}) + "\n"); 
 
     res.send("Task Added!"); 
-
-    
 }); 
 
 
